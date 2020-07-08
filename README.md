@@ -1,1 +1,7 @@
-# node_monorepo_project_boilerplate
+# Monorepo project boilerplate in NodeJS
+
+## Setup:
+
+- typescript
+- lerna
+- ava
