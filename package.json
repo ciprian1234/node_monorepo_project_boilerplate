@@ -4,8 +4,8 @@
   "description": "Monorepo project setup",
   "main": "index.js",
   "scripts": {
-    "start": "ts-node src/index.ts",
-    "build": "tsc",
+    "start": "ts-node packages/main/src/index.ts",
+    "build": "lerna run build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -21,6 +21,7 @@
   "homepage": "https://github.com/ciprian1234/node_monorepo_project_boilerplate#readme",
   "devDependencies": {
     "@types/node": "^14.0.19",
+    "lerna": "^3.22.1",
     "ts-node": "^8.10.2",
     "typescript": "^3.9.6"
   }
