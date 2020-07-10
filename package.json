@@ -5,7 +5,9 @@
   "scripts": {
     "start": "ts-node packages/main/src/index.ts",
     "build": "lerna run build",
-    "test": "lerna run test"
+    "test": "lerna run test",
+    "clean": "scripts/clean.sh",
+    "initialize": "scripts/initialize.sh"
   },
   "repository": {
     "type": "git",
